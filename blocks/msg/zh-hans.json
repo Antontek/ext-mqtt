@@ -1,0 +1,15 @@
+{
+  "MQTT_WIFI": "连上 WiFi 名称 %1 密码 %2",
+  "MQTT_WIFI_TIP": "连上 WiFi（最多等 15 秒），在控制台打印 IP。WiFi 密码会写在程序里，分享项目前记得删掉",
+  "MQTT_CONNECT": "连上 MQTT broker %1 前缀 %2",
+  "MQTT_CONNECT_TIP": "先连上 WiFi 再连 broker。前缀选填，要和仪表板连接设置里的前缀一样；断线时会自己重连",
+  "MQTT_SEND": "MQTT 发送 主题 %1 数据 %2",
+  "MQTT_SEND_TIP": "把数据发送到这个主题（数字、文字、是／否都可以），仪表板的数值显示、折线图就收得到",
+  "MQTT_HAS_NEW": "MQTT 主题 %1 有新数据？",
+  "MQTT_HAS_NEW_TIP": "这个主题收到新数据时是“是”一次，可以放进“如果”，例如配仪表板的按钮",
+  "MQTT_NUMBER": "MQTT 主题 %1 的数字 第 %2 个",
+  "MQTT_NUMBER_TIP": "这个主题最后收到的数字。数据是好几个数字时取第几个，例如仪表板摇杆的 x 是第 1 个、y 是第 2 个；还没收到时是 0",
+  "MQTT_VALUE": "MQTT 主题 %1 最新的数据",
+  "MQTT_VALUE_TIP": "这个主题最后收到的数据（数字、文字或列表），还没收到是 None。第一次用到的主题会自动订阅",
+  "CAT_MQTT": "MQTT"
+}

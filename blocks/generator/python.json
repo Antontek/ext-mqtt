@@ -1,0 +1,8 @@
+{
+  "mqtt_wifi": {"imports": ["import obricks_mqtt"], "inputs": {"SSID": {"default": "\"\""}, "PASSWORD": {"default": "\"\""}}, "code": "obricks_mqtt.wifi({SSID}, {PASSWORD})"},
+  "mqtt_connect": {"imports": ["import obricks_mqtt"], "inputs": {"BROKER": {"default": "\"broker.hivemq.com\""}, "PREFIX": {"default": "\"\""}}, "code": "obricks_mqtt.connect({BROKER}, {PREFIX})"},
+  "mqtt_send": {"imports": ["import obricks_mqtt"], "inputs": {"TOPIC": {"default": "\"\""}, "DATA": {"default": "None"}}, "code": "obricks_mqtt.send({TOPIC}, {DATA})"},
+  "mqtt_has_new": {"imports": ["import obricks_mqtt"], "inputs": {"TOPIC": {"default": "\"\""}}, "code": "obricks_mqtt.has_new({TOPIC})", "output": true},
+  "mqtt_number": {"imports": ["import obricks_mqtt"], "inputs": {"TOPIC": {"default": "\"\""}, "N": {"default": "1"}}, "code": "obricks_mqtt.number({TOPIC}, {N})", "output": true},
+  "mqtt_value": {"imports": ["import obricks_mqtt"], "inputs": {"TOPIC": {"default": "\"\""}}, "code": "obricks_mqtt.value({TOPIC})", "output": true}
+}

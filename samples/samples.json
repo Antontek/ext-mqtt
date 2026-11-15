@@ -1,0 +1,19 @@
+[
+  {
+    "id": "mqtt-dashboard",
+    "file": "dashboard.obk",
+    "level": "basic",
+    "name": {
+      "zh-hant": "和儀表板互傳",
+      "zh-hans": "和仪表板互传",
+      "en": "Talk to the dashboard",
+      "ja": "ダッシュボードとやり取り"
+    },
+    "desc": {
+      "zh-hant": "每秒送一個 10～100 的數字到 robot/distance（儀表板的折線圖收得到），儀表板的速度滑桿一變動就在主控台印出新的值。先把 WiFi 名稱和密碼改成你的。",
+      "zh-hans": "每秒发送一个 10～100 的数字到 robot/distance（仪表板的折线图收得到），仪表板的速度滑杆一变动就在控制台打印新的值。先把 WiFi 名称和密码改成你的。",
+      "en": "Sends a number from 10 to 100 to robot/distance every second (the dashboard chart receives it), and prints the new value in the console whenever the dashboard speed slider changes. Change the WiFi name and password to yours first.",
+      "ja": "1 秒ごとに 10～100 の数値を robot/distance に送り（ダッシュボードの折れ線グラフで受け取れます）、ダッシュボードの速度スライダーが変わるたびに新しい値をコンソールに表示します。最初に WiFi の名前とパスワードを自分のものに変えてください。"
+    }
+  }
+]

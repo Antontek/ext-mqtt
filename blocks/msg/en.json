@@ -1,0 +1,15 @@
+{
+  "MQTT_WIFI": "connect to WiFi name %1 password %2",
+  "MQTT_WIFI_TIP": "Connects to WiFi (waits up to 15 seconds) and prints the IP in the console. The WiFi password is stored in the program, so remove it before sharing the project",
+  "MQTT_CONNECT": "connect to MQTT broker %1 prefix %2",
+  "MQTT_CONNECT_TIP": "Connect to WiFi first. The prefix is optional and must match the prefix in the dashboard connection settings. Reconnects automatically if the connection drops",
+  "MQTT_SEND": "MQTT send topic %1 data %2",
+  "MQTT_SEND_TIP": "Sends data to this topic (numbers, text or true/false). Dashboard value displays and charts receive it",
+  "MQTT_HAS_NEW": "MQTT topic %1 has new data?",
+  "MQTT_HAS_NEW_TIP": "True once each time this topic receives new data. Use it in an \"if\", for example with a dashboard button",
+  "MQTT_NUMBER": "MQTT topic %1 number #%2",
+  "MQTT_NUMBER_TIP": "The last number received on this topic. If the data has several numbers, picks one: for the dashboard joystick, x is #1 and y is #2. 0 until something arrives",
+  "MQTT_VALUE": "MQTT topic %1 latest data",
+  "MQTT_VALUE_TIP": "The last data received on this topic (number, text or list), or None until something arrives. A topic is subscribed automatically the first time it is used",
+  "CAT_MQTT": "MQTT"
+}

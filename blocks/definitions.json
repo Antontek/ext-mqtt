@@ -1,0 +1,8 @@
+[
+  {"type": "mqtt_wifi", "message0": "%{BKY_MQTT_WIFI}", "args0": [{"type": "input_value", "name": "SSID", "check": "String"}, {"type": "input_value", "name": "PASSWORD", "check": "String"}], "inputsInline": true, "previousStatement": null, "nextStatement": null, "colour": "#6366F1", "tooltip": "%{BKY_MQTT_WIFI_TIP}"},
+  {"type": "mqtt_connect", "message0": "%{BKY_MQTT_CONNECT}", "args0": [{"type": "input_value", "name": "BROKER", "check": "String"}, {"type": "input_value", "name": "PREFIX", "check": "String"}], "inputsInline": true, "previousStatement": null, "nextStatement": null, "colour": "#6366F1", "tooltip": "%{BKY_MQTT_CONNECT_TIP}"},
+  {"type": "mqtt_send", "message0": "%{BKY_MQTT_SEND}", "args0": [{"type": "input_value", "name": "TOPIC", "check": "String"}, {"type": "input_value", "name": "DATA"}], "inputsInline": true, "previousStatement": null, "nextStatement": null, "colour": "#6366F1", "tooltip": "%{BKY_MQTT_SEND_TIP}"},
+  {"type": "mqtt_has_new", "message0": "%{BKY_MQTT_HAS_NEW}", "args0": [{"type": "input_value", "name": "TOPIC", "check": "String"}], "inputsInline": true, "output": "Boolean", "colour": "#6366F1", "tooltip": "%{BKY_MQTT_HAS_NEW_TIP}"},
+  {"type": "mqtt_number", "message0": "%{BKY_MQTT_NUMBER}", "args0": [{"type": "input_value", "name": "TOPIC", "check": "String"}, {"type": "input_value", "name": "N", "check": "Number"}], "inputsInline": true, "output": "Number", "colour": "#6366F1", "tooltip": "%{BKY_MQTT_NUMBER_TIP}"},
+  {"type": "mqtt_value", "message0": "%{BKY_MQTT_VALUE}", "args0": [{"type": "input_value", "name": "TOPIC", "check": "String"}], "inputsInline": true, "output": null, "colour": "#6366F1", "tooltip": "%{BKY_MQTT_VALUE_TIP}"}
+]

@@ -1,0 +1,26 @@
+{
+  "id": "mqtt",
+  "version": "1.0.1",
+  "name": {
+    "zh-hant": "MQTT",
+    "zh-hans": "MQTT",
+    "en": "MQTT",
+    "ja": "MQTT"
+  },
+  "description": {
+    "zh-hant": "用 WiFi 連上 MQTT broker，和儀表板或其他設備互傳資料（主題＋資料，資料是 JSON）。主機要有 WiFi（例如 Pico W、Pico 2 W）。",
+    "zh-hans": "用 WiFi 连上 MQTT broker，和仪表板或其他设备互传数据（主题＋数据，数据是 JSON）。主机要有 WiFi（例如 Pico W、Pico 2 W）。",
+    "en": "Connect to an MQTT broker over WiFi and exchange data with the dashboard or other devices (topic + JSON data). The hub needs WiFi (e.g. Pico W, Pico 2 W).",
+    "ja": "WiFi で MQTT ブローカーに接続し、ダッシュボードやほかのデバイスとデータをやり取りします（トピック＋JSON データ）。WiFi 付きのハブが必要です（Pico W、Pico 2 W など）。"
+  },
+  "author": "O Bricks",
+  "category": "communication",
+  "app": ">=1.0.0",
+  "codeTypes": [
+    "micropython"
+  ],
+  "boards": [
+    "rp2040",
+    "rp2350"
+  ]
+}
